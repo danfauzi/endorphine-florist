@@ -1,0 +1,496 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\xampp\\htdocs\\endorphine\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "tests/e2e/playwright.config.js",
+      "--list"
+    ],
+    "configFile": "C:\\xampp\\htdocs\\endorphine\\tests\\e2e\\playwright.config.js",
+    "rootDir": "C:/xampp/htdocs/endorphine/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "C:\\xampp\\htdocs\\endorphine\\tests\\e2e\\global-setup.js",
+    "globalTeardown": "C:\\xampp\\htdocs\\endorphine\\tests\\e2e\\global-teardown.js",
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/xampp/htdocs/endorphine/tests/e2e/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "C:/xampp/htdocs/endorphine/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\xampp\\htdocs\\endorphine\\tests\\e2e\\artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "",
+        "testDir": "C:\\xampp\\htdocs\\endorphine\\tests\\e2e",
+        "snapshotDir": "C:\\xampp\\htdocs\\endorphine\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.js",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:8010",
+          "browserName": "chromium",
+          "headless": true,
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\xampp\\htdocs\\endorphine\\tests\\e2e\\playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "php artisan serve --host=127.0.0.1 --port=8010",
+      "cwd": "C:\\xampp\\htdocs\\endorphine",
+      "url": "http://127.0.0.1:8010/up",
+      "reuseExistingServer": false,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "use-cases.spec.js",
+      "file": "use-cases.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC-UC01-01: pengunjung mencari, memfilter, dan membuka katalog produk",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-6510ff9143e04db69b2b",
+          "file": "use-cases.spec.js",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "TC-UC02-01: pengunjung mendaftar dan langsung menggunakan akun pelanggan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-afe1f8ba1cf2b9d412ac",
+          "file": "use-cases.spec.js",
+          "line": 46,
+          "column": 1
+        },
+        {
+          "title": "TC-UC02-02: registrasi menolak email duplikat dan konfirmasi sandi berbeda",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-967f224a66cc8013fc97",
+          "file": "use-cases.spec.js",
+          "line": 60,
+          "column": 1
+        },
+        {
+          "title": "TC-UC03-01: pelanggan menambah, mengubah, dan menghapus item keranjang",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-dd441103a31097841ac5",
+          "file": "use-cases.spec.js",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "TC-UC03-02: akses keranjang tanpa login diarahkan ke autentikasi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-412eec68b60842973a8b",
+          "file": "use-cases.spec.js",
+          "line": 90,
+          "column": 1
+        },
+        {
+          "title": "TC-UC04-01: pelanggan checkout, menerima total, lalu mengunggah bukti pembayaran",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-1860005ff148e94be3ee",
+          "file": "use-cases.spec.js",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "TC-UC04-02: checkout dengan keranjang kosong kembali ke keranjang",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-c5bf20195e0632ad0efb",
+          "file": "use-cases.spec.js",
+          "line": 121,
+          "column": 1
+        },
+        {
+          "title": "TC-UC05-01: pelanggan memberi ulasan pada pesanan selesai dan lunas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-7077d64f6dcc6ddbf55b",
+          "file": "use-cases.spec.js",
+          "line": 127,
+          "column": 1
+        },
+        {
+          "title": "TC-UC06-01: admin menambah produk dan memperbarui banner",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-24458978a8818a252624",
+          "file": "use-cases.spec.js",
+          "line": 137,
+          "column": 1
+        },
+        {
+          "title": "TC-UC06-02: pengunjung tanpa login tidak dapat membuka administrasi produk",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-4c4438433fb65e2f08f6",
+          "file": "use-cases.spec.js",
+          "line": 156,
+          "column": 1
+        },
+        {
+          "title": "TC-UC07-01: admin membuat voucher dan rekening pembayaran",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-35f0d6a939a879421ae6",
+          "file": "use-cases.spec.js",
+          "line": 161,
+          "column": 1
+        },
+        {
+          "title": "TC-UC07-02: owner tidak berhak mengelola voucher atau rekening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-2166041cdfc317d387f6",
+          "file": "use-cases.spec.js",
+          "line": 185,
+          "column": 1
+        },
+        {
+          "title": "TC-UC08-01: admin membuat akun kasir dan email yang sama ditolak",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-1a2ed631d15dd9e0a925",
+          "file": "use-cases.spec.js",
+          "line": 193,
+          "column": 1
+        },
+        {
+          "title": "TC-UC09-01: kasir menyelesaikan pesanan dari antrean dan akses role lain ditolak",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-5b3b4db261655491c411",
+          "file": "use-cases.spec.js",
+          "line": 218,
+          "column": 1
+        },
+        {
+          "title": "TC-UC10-01: kasir menyimpan transaksi POS sebagai tunai",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-552e8016fa307a10c3b1",
+          "file": "use-cases.spec.js",
+          "line": 229,
+          "column": 1
+        },
+        {
+          "title": "TC-UC10-02: POS kosong menolak pembayaran dan menampilkan peringatan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-771da5e146bb80c22d85",
+          "file": "use-cases.spec.js",
+          "line": 239,
+          "column": 1
+        },
+        {
+          "title": "TC-UC11-01: kasir menyimpan rekap shift dan perhitungan kas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-303b7b9dfab233ae605c",
+          "file": "use-cases.spec.js",
+          "line": 250,
+          "column": 1
+        },
+        {
+          "title": "TC-UC12-01: owner memfilter laporan dan mengunduh PDF serta Excel",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-a322f42041da46c02eb7",
+          "file": "use-cases.spec.js",
+          "line": 258,
+          "column": 1
+        },
+        {
+          "title": "TC-UC12-02: kasir tidak dapat membuka laporan owner",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7de4a973efa944f61c30-bc819efc7350cc983bd2",
+          "file": "use-cases.spec.js",
+          "line": 282,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-02T13:29:59.340Z",
+    "duration": 73.61800000000005,
+    "expected": 0,
+    "skipped": 19,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
